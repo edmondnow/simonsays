@@ -1,0 +1,258 @@
+
+body {
+	background: linear-gradient(left top, rgb(208, 211, 212),rgb(39, 55, 70));
+	background: -webkit-linear-gradient(left top, rgb(208, 211, 212),rgb(208, 211, 212));
+
+}
+
+.pad{
+	cursor: pointer;
+}
+
+.outer-wrapper{
+	width: 450px;
+	height: 450px;
+	background-color: black;
+	border-radius: 50%;
+	position: relative;
+}
+
+
+.main-wrapper{
+	width: 450px;
+	height: 450px;
+	border-radius: 50%;
+	margin: 10% auto;
+}
+
+.upper-left-quadrant {
+	width: 200px;
+	height: 200px;
+	border-top-left-radius: 100%;
+	background-color: rgb(0,0,255);
+	opacity: 0.5;
+	position: absolute;
+	z-index: 0;
+	box-shadow: inset 0px 0px 0px 5px black;
+	transition: ease-in-out 0.1s;
+}
+
+.lower-left-quadrant {
+	width: 200px;
+	height: 200px;
+	border-bottom-left-radius: 100%;
+	background-color: rgb(255,0,0);
+	opacity: 0.5;
+	position: absolute;
+	top: 200px;
+	z-index: 0;
+	box-shadow: inset 0px 0px 0px 5px black;
+	transition: ease-in-out 0.1s;
+}
+
+.lower-right-quadrant {
+	width: 200px;
+	height: 200px;
+	border-bottom-right-radius: 100%;
+	background-color: rgb(255,255,0);
+	opacity: 0.5;
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	z-index: 0;
+	box-shadow: inset 0px 0px 0px 5px black;
+	transition: ease-in-out 0.1s;
+}
+
+.upper-right-quadrant {
+	width: 200px;
+	height: 200px;
+	border-top-right-radius: 100%;
+	background-color: rgb(0,255,0);
+	opacity: 0.5;
+	position: absolute;
+	left: 200px;
+	z-index: 0;
+	box-shadow: inset 0px 0px 0px 5px black;
+	transition: ease-in-out 0.1s;
+}
+
+.inner-wrapper {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	margin: 25px 25px;
+	z-index: 1;
+}
+
+.inner-circle{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-color: white;
+	border: 20px solid black;
+	z-index: 3;
+	top: 80px;
+	left: 80px;
+}
+
+h1 {
+	position: absolute;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.5em;
+	top: 20px;
+	left: 32px;
+}
+
+
+.display {
+	background-color: black;
+	width: 40px;
+	height: 30px;
+	border-radius: 5px;
+	position: absolute;
+	left: 140px;
+	bottom: 180px;
+	z-index: 33;
+
+}
+
+#start{
+	background-color: red !important;
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	position: absolute;
+	z-index: 33;
+	left: 210px;
+	bottom: 180px;
+}
+
+#strict{
+	background-color: yellow !important;
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	position: absolute;
+	z-index: 33;
+	left: 270px;
+	bottom: 180px;
+}
+
+.strict-it-on{
+	background-color: red !important;
+}
+
+.begin{
+	width: 50px;
+	height: 25px;
+	background-color: black;
+	position: absolute;
+	z-index: 33;
+	left: 200px;
+	bottom: 120px;
+	cursor: pointer;
+}
+
+button{
+	cursor: pointer;
+}
+
+.slider{
+	width: 25px;
+	height: 25px;
+	background-color: gray;
+	box-shadow: inset 0px 0px 0px 2px;
+	border-radius: 5px;
+	transition: ease-in-out 0.1s;
+	position: relative;
+}
+
+.on {
+	position: absolute;
+	z-index: 33;
+	left: 258px;
+	bottom: 123px;
+	margin: 0;
+
+}
+
+.off {
+	position: absolute;
+	z-index: 33;
+	left: 167px;
+	bottom: 123px;
+	margin: 0;
+	display: inline;
+}
+
+.strict-on{
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 53;
+	background-color: gray;
+	left: 200px;
+	box-shadow: inset 0px 0px 0px 1px black;
+	left: 300px;
+	bottom: 210px;
+
+
+}
+
+.count {
+	position: absolute;
+	left: 139px;
+	bottom: 158px;
+	z-index: 33;
+}
+
+.start-it{
+	position: absolute;
+	left: 205px;
+	bottom: 158px;
+	z-index: 33;
+}
+.strict-it{
+	position: absolute;
+	left: 260px;
+	bottom: 158px;
+	z-index: 33;
+}
+
+
+.slideranimate {
+
+	left: 25px;
+
+
+}
+
+.display-text{
+	color: red;
+	font-size: 1.5em;
+	position: absolute;
+	left: 6px;
+	top: 2px;
+	visibility: hidden;
+}
+
+
+
+
+span {
+	font-family: 'Share Tech Mono', monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
